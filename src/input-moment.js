@@ -95,7 +95,7 @@ export default class InputMoment extends Component {
             />
           </div>
 
-          {this.props.onSave ? (
+          {onSave ? (
               <button
                   type="button"
                   className="im-btn btn-save ion-checkmark"
