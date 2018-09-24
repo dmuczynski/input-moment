@@ -33,6 +33,7 @@ class App extends Component {
           <InputMoment
             moment={this.state.m}
             onChange={this.handleChange}
+            minStep={5}
           />
         </form>
       </div>
